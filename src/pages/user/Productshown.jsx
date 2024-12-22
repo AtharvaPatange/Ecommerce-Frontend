@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const Productshown = ({ products }) => {
-  const allowedCategories = ['Western', 'Trendy1', 'Tradtionals'];
+  const allowedCategories = ['Western', 'Trendys', 'Tradtionals'];
   const filteredProducts = products.filter((product) =>
     allowedCategories.includes(product.category)
   );

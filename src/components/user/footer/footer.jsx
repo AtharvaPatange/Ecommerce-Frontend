@@ -27,7 +27,7 @@ const Footer = () => {
           <p className="text-gray-600">
             3181 Street Name, City, India
             <br />
-            Email: <a href="mailto:support@merabestie.com" className="hover:underline">support@Mytalorzone.com</a>
+            Email: <a href="mailto:support@Mytalorzone.com" className="hover:underline">support@Mytalorzone.com</a>
             <br />
             Phone: <a href="tel:+911234567890" className="hover:underline">+91 1234567890</a>
           </p>

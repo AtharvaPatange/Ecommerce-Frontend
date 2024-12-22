@@ -210,7 +210,7 @@ const ProductDetail = () => {
   return (
     <>
       <Helmet>
-        <title>{product.name} | Mera Bestie</title>
+        <title>{product.name} | Mytalorzone</title>
       </Helmet>
       <Navbar />
       <ToastContainer />

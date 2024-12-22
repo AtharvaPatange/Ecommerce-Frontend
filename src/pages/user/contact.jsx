@@ -53,7 +53,7 @@ const ContactUs = () => {
     <>
     <Helmet>
       <title>Contact Us | Mytalorzone</title>
-      <meta name="description" content="Get in touch with Mera Bestie. We're here to help and answer any questions you may have." />
+      <meta name="description" content="Get in touch with  Mytalorzone. We're here to help and answer any questions you may have." />
     </Helmet>
     <Navbar className='z-0 mb-auto' />
     <div className="bg-gradient-to-br from-pink-50 to-blue-50 min-h-screen mt-16">
@@ -193,7 +193,7 @@ const ContactUs = () => {
                   { 
                     icon: <FaEnvelope className="text-pink-500 text-2xl" />, 
                     title: "Email", 
-                    detail: "support@merabestie.com" 
+                    detail: "support@Mytalorzone.com" 
                   },
                   { 
                     icon: <FaMapMarkerAlt className="text-pink-500 text-2xl" />, 

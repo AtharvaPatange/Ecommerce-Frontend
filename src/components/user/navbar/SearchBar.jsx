@@ -68,7 +68,7 @@ const SearchBar = () => {
             <div className="relative">
                 <input
                     type="text"
-                    placeholder="Search gifts for your loved ones..."
+                    placeholder="Search Clothes for your loved ones..."
                     className="w-full px-4 py-3 pl-10 pr-10 border-2 border-pink-200 rounded-full 
                                focus:outline-none focus:ring-2 focus:ring-pink-500 
                                transition-all duration-300 ease-in-out"

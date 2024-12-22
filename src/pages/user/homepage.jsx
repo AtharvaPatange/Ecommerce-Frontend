@@ -115,24 +115,24 @@ const HomePage = () => {
       rating: 2,
       reviewText: 'Not what I expected. Quality could be better.'
     },
-    // Add more reviews as needed
+    
   ];
 
   const productCategories = [
     {
-      img: "https://plus.unsplash.com/premium_photo-1661687576801-aaf77db0a01d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8V2VzdGVybiUyMGdpcmx8ZW58MHx8MHx8fDA%3D", // Gift Boxes
+      img: "https://i.pinimg.com/originals/c2/fb/3d/c2fb3d7e29c3e50eadf426987023589d.jpg",
       title: "Western",
       category: "Gift-Boxes",
       description: "Huge collection of Gift Boxes for every occasion.",
     },
     {
-      img: "https://plus.unsplash.com/premium_photo-1685125885239-327f250afbbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VHJlbmR5JTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D", // Stationery
+      img: "https://i.pinimg.com/originals/f0/f7/92/f0f7929c64f7114d3bd0a71d4039b8ab.png", 
       title: "Trendy",
       category: "Stationery",
       description: "Elegant and functional stationery items for every occasion."
     },
     {
-      img: "https://images.unsplash.com/photo-1728537735683-b1207892f96d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VHJhZGl0aW9uYWwlMjBnaXJsfGVufDB8fDB8fHww", // Books
+      img: "https://th.bing.com/th/id/OIP.d_3cU7dA8r9eUgc1Eo-UawAAAA?rs=1&pid=ImgDetMain", 
       title: "Traditional",
       category: "Books",
       description: "A diverse collection of books to inspire and educate."
@@ -169,17 +169,17 @@ const HomePage = () => {
 
   const newArrivals = [
     {
-      img: "https://images.pexels.com/photos/269887/pexels-photo-269887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", // Gift Boxes
+      img: "https://i.pinimg.com/originals/c2/fb/3d/c2fb3d7e29c3e50eadf426987023589d.jpg",
       title: "Western",
       category: "Gift-Boxes"
     },
     {
-      img: "https://i.pinimg.com/originals/96/24/6e/96246e3c133e6cb5ae4c7843f9e45b22.jpg", // Stationery
+      img: "https://i.pinimg.com/originals/f0/f7/92/f0f7929c64f7114d3bd0a71d4039b8ab.png",
       title: "Trendy",
       category: "Stationery"
     },
     {
-      img: "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", // Books
+      img: "https://th.bing.com/th/id/OIP.d_3cU7dA8r9eUgc1Eo-UawAAAA?rs=1&pid=ImgDetMain", 
       title: "Traditional",
       category: "Books"
     }
@@ -246,20 +246,7 @@ const HomePage = () => {
         </section>
 
     
-        {/* Hero Section with Modern Glassmorphism Design */}
-
-        {/* Product Categories Section with Refined Styling */}
-        {/* Removed duplicate closing section tag */}
-
-    {/* Optional: Remove the additional "Shop Now" button below the carousel if not needed */}
-    {/* <div className="text-center mt-8">
-      <button
-        onClick={() => window.location.href="#shop"}
-        className="bg-gradient-to-r from-pink-500 to-blue-500 text-white px-6 py-3 rounded-full shadow-lg hover:opacity-90 transition"
-      >
-        Shop Now
-      </button>
-    </div> */}
+        
 
 <section className="px-0 py-20 bg-white">
           <div className="container mx-auto max-w-6xl">

@@ -19,7 +19,7 @@ function GiftBox() {
   if (category === 'Gift-Boxes'||category == 'gift-boxes') {
     category = 'Western';
   } else if (category === 'Stationery'||category == 'stationery') {
-    category = 'Trendy';
+    category = 'Trendys';
   } else if (category === 'Books'||category == 'books') {
     category = 'Tradtionals';
   }

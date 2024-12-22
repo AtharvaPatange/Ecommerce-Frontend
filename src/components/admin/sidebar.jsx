@@ -226,7 +226,7 @@ const Sidebar = () => {
                 <div className="flex items-center p-4">
                     {isOpen && (
                         <div className="text-2xl font-bold text-gray-800">
-                            Mera Bestie
+                            Mytalorzone
                         </div>
                     )}
                 </div>
@@ -280,7 +280,7 @@ const Sidebar = () => {
                     </div>
 
                     <footer className={`text-center text-gray-500 text-sm p-4 ${isOpen ? 'block' : 'hidden'}`}>
-                        Mera Bestie Admin Dashboard © 2024
+                    Mytalorzone Admin Dashboard © 2024
                     </footer>
                 </div>
             </div>

@@ -114,7 +114,7 @@ function About() {
           {/* Image Section */}
           <div className="mt-16 text-center">
             <img
-              src="src/assets/bg shop.png"
+              src="https://static.wixstatic.com/media/84268f_1d27bd15510d464191bb6b5178c6d666~mv2.png/v1/fill/w_521,h_522,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Marry_Logo_Transparent.png"
               alt="Mytalorzone Team"
               className="rounded-2xl shadow-2xl mx-auto max-w-4xl h-auto transform transition duration-500 hover:scale-[1.01]"
             />

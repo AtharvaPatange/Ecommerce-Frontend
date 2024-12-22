@@ -19,17 +19,17 @@ const Shop = ({ category }) => {
   const categories = [
     { 
       name: 'Books', 
-      img: "https://tse2.mm.bing.net/th?id=OIP.uyi1Q5l2H8Zf9APJQplJfQHaEK&pid=Api&P=0&h=180",
+      img: "https://th.bing.com/th/id/OIP.d_3cU7dA8r9eUgc1Eo-UawAAAA?rs=1&pid=ImgDetMain",
       description: 'Discover your next favorite read'
     },
     { 
       name: 'Gift Boxes', 
-      img: "http://images4.fanpop.com/image/photos/22200000/Christmas-gifts-christmas-gifts-22231235-2048-2048.jpg",
+      img: "https://i.pinimg.com/originals/c2/fb/3d/c2fb3d7e29c3e50eadf426987023589d.jpg",
       description: 'Perfect presents for loved ones'
     },
     { 
       name: 'Stationery', 
-      img: "https://tse1.mm.bing.net/th?id=OIP.UCpcTmMMOdXTF6WAhtD94QHaH0&pid=Api&P=0&h=180",
+      img: "https://i.pinimg.com/originals/f0/f7/92/f0f7929c64f7114d3bd0a71d4039b8ab.png",
       description: 'Quality supplies for work and study'
     },
   ];
@@ -185,11 +185,11 @@ const filterProducts = category => {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {categories.map((category, index) => {
-              let cat = "";
+              let cat = "Western";
               if (category.name === 'Gift-Boxes' || category.name === 'gift-boxes') {
                 cat = 'Western';
               } else if (category.name === 'Stationery' || category.name === 'stationery') {
-                cat = 'Trendy1';
+                cat = 'Trendys';
               } else if (category.name === 'Books' || category.name === 'books') {
                 cat = 'Traditionals';
               }
