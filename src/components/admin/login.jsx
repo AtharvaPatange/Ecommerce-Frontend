@@ -22,7 +22,7 @@ const AdminLogin = () => {
 
     try {
       const response = await fetch(
-        "https://ecommercebackend-8gx8.onrender.com/admin/login",
+        "https://ecommerce-backend-owgx.onrender.com/admin/login",
         {
           method: "POST",
           headers: {

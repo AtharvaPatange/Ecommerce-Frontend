@@ -28,7 +28,7 @@ console.log(category);
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('https://ecommercebackend-8gx8.onrender.com/product/category', {
+        const response = await fetch('https://ecommerce-backend-owgx.onrender.com/product/category', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

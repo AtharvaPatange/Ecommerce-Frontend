@@ -68,7 +68,7 @@ const Sidebar = () => {
 
     const handleLogout = async () => {
         try {
-            const response = await fetch('https://ecommercebackend-8gx8.onrender.com/admin/logout', {
+            const response = await fetch('https://ecommerce-backend-owgx.onrender.com/admin/logout', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -87,7 +87,7 @@ const Sidebar = () => {
 
     const handleSubmit = async () => {
         try {
-            const response = await fetch('https://ecommercebackend-8gx8.onrender.com/create-product', {
+            const response = await fetch('https://ecommerce-backend-owgx.onrender.com/create-product', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

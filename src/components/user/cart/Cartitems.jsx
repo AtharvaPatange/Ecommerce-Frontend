@@ -26,7 +26,7 @@ const CartItems = () => {
 
       try {
         // First fetch cart data
-        const cartResponse = await fetch(`https://ecommercebackend-8gx8.onrender.com/cart/get-cart`, {
+        const cartResponse = await fetch(`https://ecommerce-backend-owgx.onrender.com/cart/get-cart`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
@@ -52,7 +52,7 @@ const CartItems = () => {
 
         // Get product details for each unique product
         const productPromises = uniqueProductIds.map(async (productId) => {
-          const productResponse = await fetch('https://ecommercebackend-8gx8.onrender.com/:productId', {
+          const productResponse = await fetch('https://ecommerce-backend-owgx.onrender.com/:productId', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
@@ -91,7 +91,7 @@ const CartItems = () => {
     if (newQuantity >= 1) {
       try {
         const userId = sessionStorage.getItem('userId');
-        const response = await fetch('https://ecommercebackend-8gx8.onrender.com/cart/update-quantity', {
+        const response = await fetch('https://ecommerce-backend-owgx.onrender.com/cart/update-quantity', {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json'
@@ -127,7 +127,7 @@ const CartItems = () => {
 
     try {
       const userId = sessionStorage.getItem('userId');
-      const response = await fetch('https://ecommercebackend-8gx8.onrender.com/cart/delete-items', {
+      const response = await fetch('https://ecommerce-backend-owgx.onrender.com/cart/delete-items', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -157,7 +157,7 @@ const CartItems = () => {
 
   const handleVoucherRedeem = async () => {
     try {
-      const response = await fetch('https://ecommercebackend-8gx8.onrender.com/coupon/verify-coupon', {
+      const response = await fetch('https://ecommerce-backend-owgx.onrender.com/coupon/verify-coupon', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
