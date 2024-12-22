@@ -129,7 +129,7 @@ const Shop = ({ category }) => {
   return (
     <>
       <Helmet>
-        <title>Shop | Mera Bestie</title>
+        <title>Shop | Mytalorzone</title>
       </Helmet>
 
       {/* Promotional Banner */}
@@ -210,9 +210,9 @@ const Shop = ({ category }) => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="text-center md:text-left">
-                <h4 className="text-2xl font-bold text-pink-800 mb-4">MERA Bestie</h4>
+                <h4 className="text-2xl font-bold text-pink-800 mb-4">Mytalorzone</h4>
                 <p className="text-gray-600 mb-4">
-                  Your one-stop destination for thoughtful and unique gifts.
+                  Your one-stop destination for thoughtful and unique Clothes.
                 </p>
                 <div className="flex justify-center md:justify-start space-x-6 text-2xl">
                   <a href="https://facebook.com" className="text-pink-600 hover:text-pink-800">

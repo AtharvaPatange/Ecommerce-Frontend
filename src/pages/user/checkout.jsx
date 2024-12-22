@@ -214,7 +214,7 @@ const Checkout = () => {
   return (      
     <div className="bg-gray-50 min-h-screen">
       <Helmet>
-        <title>Checkout | Mera Bestie</title>
+        <title>Checkout | Mytalorzone</title>
       </Helmet>
       <Navbar />
       

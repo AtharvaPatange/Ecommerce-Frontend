@@ -32,7 +32,7 @@ export default function SignUp() {
   return (
     <>
       <Helmet>
-        <title>Sign Up | Mera Bestie</title>
+        <title>Sign Up | Mytalorzone</title>
       </Helmet>
       <div className="min-h-screen bg-gradient-to-br from-pink-50 to-pink-100 flex items-center justify-center p-4">
         <div className="fixed top-0 left-0 w-full z-50">
@@ -55,7 +55,7 @@ export default function SignUp() {
                 Create Your Account
               </h2>
               <p className="text-pink-600 mt-2">
-                Join Mera Bestie
+                Join Mytalorzone
               </p>
             </div>
 

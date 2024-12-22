@@ -29,7 +29,7 @@ const Login = () => {
   return (
     <>
       <Helmet>
-        <title>Login | Mera Bestie</title>
+        <title>Login | Mytalorzone</title>
       </Helmet>
       <div className="min-h-screen bg-gradient-to-br from-pink-50 to-pink-100 flex items-center justify-center p-4 mt-16">
         <div className="fixed top-0 left-0 w-full z-50">
@@ -52,7 +52,7 @@ const Login = () => {
                 Welcome Back
               </h2>
               <p className="text-pink-600 mt-2">
-                Log in to Mera Bestie
+                Log in to Mytalorzone
               </p>
             </div>
 

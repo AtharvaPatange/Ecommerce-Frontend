@@ -52,7 +52,7 @@ const ContactUs = () => {
   return (
     <>
     <Helmet>
-      <title>Contact Us | Mera Bestie</title>
+      <title>Contact Us | Mytalorzone</title>
       <meta name="description" content="Get in touch with Mera Bestie. We're here to help and answer any questions you may have." />
     </Helmet>
     <Navbar className='z-0 mb-auto' />

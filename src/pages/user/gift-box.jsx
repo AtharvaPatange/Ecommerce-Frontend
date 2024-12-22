@@ -59,7 +59,7 @@ function GiftBox() {
   return (
     <>
       <Helmet>
-        <title>Gift Boxes | Mera Bestie</title>
+        <title>Gift Boxes | Mytalorzone</title>
       </Helmet>
       <div className="bg-gradient-to-b from-pink-50 to-pink-100 min-h-screen relative mt-16">
         <Navbar className="sticky top-0 z-50 bg-white shadow-md" />
@@ -126,9 +126,9 @@ function GiftBox() {
         <footer className="bg-white py-16 text-black border-t border-pink-200">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-6">
             <div className="flex flex-col items-center md:items-start">
-              <h4 className="text-3xl font-extrabold text-pink-800 mb-4">MERA Bestie</h4>
+              <h4 className="text-3xl font-extrabold text-pink-800 mb-4">Mytalorzone</h4>
               <p className="text-gray-600 mb-4 text-center md:text-left">
-                Your one-stop destination for thoughtful and unique gifts.
+                Your one-stop destination for thoughtful and unique Clothes.
               </p>
               <div className="flex space-x-6 text-3xl mt-4">
                 <FaFacebook className="text-pink-600 hover:text-pink-800 transition cursor-pointer" />
@@ -141,7 +141,7 @@ function GiftBox() {
               <p className="text-gray-600">
                 3181 Street Name, City, India
                 <br />
-                Email: support@merabestie.com
+                Email: support@Mytalorzone.com
                 <br />
                 Phone: +91 1234567890
               </p>

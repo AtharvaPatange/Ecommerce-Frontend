@@ -99,7 +99,7 @@ const Dashboard = () => {
                 <div className="flex justify-between items-center mb-8">
                     <div>
                         <h1 className="text-3xl font-bold text-pink-800">Dashboard</h1>
-                        <p className="text-pink-600">Welcome back to Mera Bestie Admin!</p>
+                        <p className="text-pink-600">Welcome back to Mytalorzone Admin!</p>
                     </div>
                     <button className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition flex items-center" onClick={e=>{setRefresh(!refresh)}}>
                         <TrendingUp className="mr-2 h-5 w-5" /> Refresh Data
