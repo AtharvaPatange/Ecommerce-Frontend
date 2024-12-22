@@ -11,7 +11,7 @@ const ShoppingCartPage = () => {
   return (
     <div className="bg-pink-50 min-h-screen">
       <Helmet>
-        <title>Shopping Cart | Mera Bestie</title>
+        <title>Shopping Cart | Mytalorzone</title>
       </Helmet>
       <Navbar />
       

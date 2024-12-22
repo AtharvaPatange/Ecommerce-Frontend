@@ -203,7 +203,7 @@ const ProfessionalNavbar = () => {
               className="text-2xl flex items-center hover:opacity-80 transition mx-auto lg:mx-0"
             >
               <span className="font-['Bodoni_MT'] font-bold text-3xl sm:text-4xl text-pink-600">
-                MERA Bestie
+              Mytalorzone by Sahiba
               </span>
             </Link>
 

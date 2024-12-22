@@ -188,7 +188,7 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Mera Bestie | Unique Gifting Experience</title>
+        <title>Mytalorzone | Unique Clothing Experience</title>
         <meta
           name="description"
           content="Discover unique gifts and thoughtful collections for every occasion."
