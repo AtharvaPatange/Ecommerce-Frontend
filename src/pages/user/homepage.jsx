@@ -120,21 +120,21 @@ const HomePage = () => {
 
   const productCategories = [
     {
-      img: "https://images.pexels.com/photos/269887/pexels-photo-269887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", // Gift Boxes
-      title: "Trendy",
-      category: "Trendy",
+      img: "https://plus.unsplash.com/premium_photo-1661687576801-aaf77db0a01d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8V2VzdGVybiUyMGdpcmx8ZW58MHx8MHx8fDA%3D", // Gift Boxes
+      title: "Western",
+      category: "Gift-Boxes",
       description: "Huge collection of Gift Boxes for every occasion.",
     },
     {
-      img: "https://i.pinimg.com/originals/96/24/6e/96246e3c133e6cb5ae4c7843f9e45b22.jpg", // Stationery
-      title: "Western",
-      category: "Western",
+      img: "https://plus.unsplash.com/premium_photo-1685125885239-327f250afbbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VHJlbmR5JTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D", // Stationery
+      title: "Trendy",
+      category: "Stationery",
       description: "Elegant and functional stationery items for every occasion."
     },
     {
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-3UX8SgwoA2IBQ7I9_pA9UZZ4_XQKZ0BeQ&s", // Books
+      img: "https://images.unsplash.com/photo-1728537735683-b1207892f96d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VHJhZGl0aW9uYWwlMjBnaXJsfGVufDB8fDB8fHww", // Books
       title: "Traditional",
-      category: "Traditional",
+      category: "Books",
       description: "A diverse collection of books to inspire and educate."
     }
   ];
