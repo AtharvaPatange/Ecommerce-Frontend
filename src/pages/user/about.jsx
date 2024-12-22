@@ -32,7 +32,7 @@ function About() {
     <>
       <Helmet>
         <title>About Us | Mytalorzone</title>
-        <meta name="description" content="Learn about Mera Bestie's journey, vision, and mission." />
+        <meta name="description" content="Learn about Mytalorzone journey, vision, and mission." />
       </Helmet>
       <Navbar />    
       <div className="min-h-screen bg-gradient-to-b from-pink-100 to-pink-50 mt-16">
