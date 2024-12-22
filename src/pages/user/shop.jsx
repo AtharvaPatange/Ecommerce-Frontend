@@ -15,11 +15,7 @@ const Shop = ({ category }) => {
   const [loading, setLoading] = useState(true);
 
   const categories = [
-    { 
-      name: 'Fashion Accessories', 
-      img: 'https://cdn.igp.com/f_auto,q_auto,t_pnopt12prodlp/products/p-modish-fashion-necklace-25631-m.jpg',
-      description: 'Trendy accessories for every occasion'
-    },
+   
     { 
       name: 'Books', 
       img: "https://tse2.mm.bing.net/th?id=OIP.uyi1Q5l2H8Zf9APJQplJfQHaEK&pid=Api&P=0&h=180",
@@ -148,7 +144,15 @@ const Shop = ({ category }) => {
             Shop by Category
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {categories.map((category, index) => (
+            {categories.map((category, index) => {
+              if (category.name === 'Gift-Boxes' || category.name === 'gift-boxes') {
+    category.name = 'Western';
+  } else if (category.name === 'Stationery' || category.name === 'stationery') {
+    category.name = 'Trendy1';
+  } else if (category.name === 'Books' || category.name === 'books') {
+    category.name = 'Traditional';
+  }
+              return(
               <motion.div
                 key={index}
                 className="relative bg-white rounded-xl shadow-md overflow-hidden cursor-pointer"
@@ -167,7 +171,7 @@ const Shop = ({ category }) => {
                   <p className="text-sm text-gray-600">{category.description}</p>
                 </div>
               </motion.div>
-            ))}
+            )})}
           </div>
         </section>
 

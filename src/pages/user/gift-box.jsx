@@ -11,19 +11,21 @@ function GiftBox() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
   const location = useLocation();
-  let category =  location.pathname.split('/').pop(); // Extract category from URL
+  let category = location.pathname.split('/').pop(); // Extract category from URL
+  
   const navigate = useNavigate();
- if(category=='Gift-Boxes'){
-       category='Western'
-    }
-    else if(category=='Stationery'){
-       category='Trendy1'
-    }
-    else if(category=='Books'){
-        category='Tradtional1'
-    }
+
+  // Modify the category based on the current route
+  if (category === 'Gift-Boxes'||category == 'gift-boxes') {
+    category = 'Western';
+  } else if (category === 'Stationery'||category == 'stationery') {
+    category = 'Trendy1';
+  } else if (category === 'Books'||category == 'books') {
+    category = 'Traditional';
+  }
+console.log(category);
+
   useEffect(() => {
-   
     const fetchProducts = async () => {
       try {
         const response = await fetch('https://ecommercebackend-8gx8.onrender.com/product/category', {
@@ -45,6 +47,10 @@ function GiftBox() {
               (product.visibility === 'on' || product.visibility === 'true')
           );
           setProducts(validProducts);
+          console.log(category);
+          console.log(validProducts);
+          
+          
         }
       } catch (error) {
         console.error('Error fetching products:', error);
@@ -80,8 +86,8 @@ function GiftBox() {
               transition={{ duration: 0.8 }}
             >
               {
-                category
-            }
+                category === 'Trendy1' ? 'Trendy' : category
+              }
             </motion.h1>
             <motion.p
               className="text-gray-700 text-xl max-w-2xl mx-auto leading-relaxed"

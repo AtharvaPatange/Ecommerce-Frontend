@@ -53,7 +53,7 @@ const ProductDetail = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/:productId`, {
+        const response = await fetch(`https://ecommercebackend-8gx8.onrender.com/:productId`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -98,7 +98,7 @@ const ProductDetail = () => {
 
   const fetchRelatedProducts = async (category) => {
     try {
-      const response = await fetch(`http://localhost:5000/products?category=${category}`);
+      const response = await fetch(`https://ecommercebackend-8gx8.onrender.com/products?category=${category}`);
       const data = await response.json();
       if (data.success) {
         setRelatedProducts(data.products.slice(0, 4));
@@ -140,7 +140,7 @@ const ProductDetail = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/cart/addtocart', {
+      const response = await fetch('https://ecommercebackend-8gx8.onrender.com/cart/addtocart', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
